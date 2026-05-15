@@ -13,7 +13,6 @@ The goal is to classify cultural items into:
 
 based on structured knowledge graph information and textual descriptions.
 
----
 
 ## Project Overview
 
@@ -35,7 +34,6 @@ Key components:
 
 The GCN performs message passing across connected entities to leverage cultural relationships between items.
 
----
 
 ### 2. LM Approach: DistilBERT
 
@@ -55,7 +53,6 @@ The model is fine-tuned for sequence classification using:
 - Dynamic padding
 - Automatic hyperparameter search with Optuna
 
----
 
 ## Technologies Used
 
@@ -68,7 +65,6 @@ The model is fine-tuned for sequence classification using:
 - NetworkX
 - Wikidata SPARQL API
 
----
 
 ## Model Architectures
 
@@ -95,7 +91,6 @@ Optimization objective:
 
 - Maximize weighted F1 score on validation set
 
----
 
 ## Results
 
@@ -112,7 +107,6 @@ Optimization objective:
   - pretrained world knowledge
   - access to semantic clues in descriptions
 
----
 
 ## Visualizations
 
@@ -122,7 +116,6 @@ The report includes:
 - Validation accuracy curve
 - Confusion matrices for both models
 
----
 
 ## How to Run
 
@@ -144,7 +137,6 @@ python train_gcn.py
 python train_lm.py
 ```
 
----
 
 ## 📂 Project Structure
 
@@ -159,13 +151,11 @@ python train_lm.py
 └── README.md
 ```
 
----
 
 ## Report
 
 The full project report describing the methodologies, experiments, and results is available in `Report.pdf`.
 
----
 
 ## 👥 Authors
 
