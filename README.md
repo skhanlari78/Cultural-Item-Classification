@@ -15,7 +15,7 @@ based on structured knowledge graph information and textual descriptions.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project explores two different paradigms for cultural classification.
 
@@ -57,7 +57,7 @@ The model is fine-tuned for sequence classification using:
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 - Python
 - PyTorch
@@ -70,7 +70,7 @@ The model is fine-tuned for sequence classification using:
 
 ---
 
-## 🧠 Model Architectures
+## Model Architectures
 
 ### GCN Configuration
 
@@ -97,7 +97,7 @@ Optimization objective:
 
 ---
 
-## 📊 Results
+## Results
 
 | Model | Accuracy | Weighted F1 |
 |---|---|---|
@@ -114,7 +114,7 @@ Optimization objective:
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 
 The report includes:
 
@@ -124,7 +124,7 @@ The report includes:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Install Dependencies
 
@@ -161,7 +161,7 @@ python train_lm.py
 
 ---
 
-## 📖 Report
+## Report
 
 The full project report describing the methodologies, experiments, and results is available in `Report.pdf`.
 
